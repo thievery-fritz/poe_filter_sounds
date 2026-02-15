@@ -1,0 +1,28 @@
+* This filter is focused on softcore trade leaguestart, not directly HC SFF racing. An attempt was made to be compatible however.
+
+Principles:
+* Keep changes contained to FilterBlade's Leveling sections when at all possible, for clarity and possible compatibility with endgame filters.
+* Any drop with a sound must have an icon, knowing where something dropped is critical to knowing whether it's worth picking up.
+ * Almost every drop with an icon should have a custom sound, so it's known what dropped.
+ * If it seems like a drop is not important enough for a sound or not important enough for an icon, it should probably have neither.
+* Generally leave "Sound: 6" (very high tier drop), "Sound: 1" (high tier drop), and "Sound: 8" (exalt drop) as-is.
+* "Color: Gray" map icons are to be avoided. Gray map icons are too difficult to see at some minimap zoom levels or transparency levels.
+* All lower-case sound file names for compatibility.
+
+Other notes:
+* A warning rule for chaos recipe rare items is included as a reminder to switch filters around mid act 8.
+
+* Text-to-speech is Amazon Polly: US English / Matthew. Polly is good TTS if you want to replace the sound files with a different voice.
+
+Customizing for specific builds:
+* Misc > Skill Gems > Gems During Campaign:
+  Build specific gems, especially un-purchasable ones
+* Campaign > Colors > Desired SocketGroups
+  Desired link groups from most to least (all 4Ls > all 3Ls > all 2Ls)
+  Make sure to set Links field
+  
+To make class-based from preset:
+* Add custom armourtype-based rules for class type
+* Add progression for class weapon types
+* Add desired socketgroups for class colors
+ * Include rares
