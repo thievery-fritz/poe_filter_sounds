@@ -8,3 +8,5 @@ So these mp3 files should live inside...
 `C:\Users\my_user_name\Documents\My Games\Path of Exile\sounds`
 
 If you don't do that, you'll get file load errors.
+
+So if you just download the repo, then copy/paste the sounds folder, you're good to go.
